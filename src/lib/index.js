@@ -1,2 +1,4 @@
 "use strict";
-export { basicCard } from "./basicCard.ctrl.js";
+
+exports.basicCard = require("./basicCard.ctrl.js");
+exports.simpleText = require("./simpleText.ctrl.js");
